@@ -1,3 +1,4 @@
-function doGet() {
-  return HtmlService.createHtmlOutputFromFile('index');
+function doGet(request) {
+  return HtmlService.createTemplateFromFile('index').evaluate().setXFrameOptionsMode(HtmlService.
+XFrameOptionsMode.ALLOWALL);
 }
