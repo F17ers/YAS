@@ -1,0 +1,4 @@
+<script src="https://e9x.github.io/ruffle-example/ruffle.js"></script>
+<object width="100%" height="100%">
+    <param name="movie" value="https://flash-games.penguinbotcoder.repl.co/flashgames/thinice.swf">
+</object>
